@@ -1,0 +1,34 @@
+*{
+  margin:0;
+  padding:0;
+}
+h1{
+  font-weight:normal;
+  text-align:center;
+  margin:30px auto;
+  color:#f06595
+}
+#box{
+  display:flex;
+  flex-wrap:wrap;
+  width:300px;
+  height:300px;
+  margin:0 auto;
+  border:1px solid #f06595;
+}
+.box{
+  width:100px;
+  height:100px;
+  border:1px solid #f06595;
+  box-sizing:border-box;
+}
+.box p{
+  font-size:40px;
+  display:block;
+  text-align:center;
+  width:100px;
+  height:100px;
+  line-height:100px;
+  color:#f06595;
+}
+
